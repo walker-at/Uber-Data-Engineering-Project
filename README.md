@@ -1,6 +1,10 @@
 # Uber/Taxi-Data-Engineering-Project
 
-This project aimed to implement an ETL data pipeline for yellow and green NYC taxi trip records (for fun, we'll call it Uber). I started by building a dimensional data model in fact and dimension format to visualize the goal. I then wrote the code for transforming the data in python, which was deployed as part of an ETL pipeline on Mage AI through a compute instance on google cloud. From here, I loaded the transformed data into Snowflake for analysis with SQL in preparation for being visualized in Looker. The final dashboard could be used to answer such questions as: do customers paying by credit card or cash spend more per ride? Which tips more? Which rate type (standard, pre-negotiated, airport trip, etc.) provides the highest average sale?
+This project aimed to implement an ETL data pipeline for yellow and green NYC taxi trip records (for fun, we'll call it Uber). 
+
+I started by building a dimensional data model in fact and dimension format to visualize the goal. I then wrote the code for transforming the data in python, which was deployed as part of an ETL pipeline on Mage AI through a compute instance on google cloud. From here, I loaded the transformed data into Snowflake for analysis with SQL in preparation for being visualized in Looker. 
+
+The final dashboard could be used to answer such questions as: do customers paying by credit card or cash spend more per ride? Which tips more? Which rate type (standard, pre-negotiated, airport trip, etc.) provides the highest average sale?
 
 The final visualization can be viewed at: https://lookerstudio.google.com/reporting/fad782bf-59ce-44b8-99ba-dc4ada4241ad
 
