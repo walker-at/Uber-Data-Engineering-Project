@@ -1,0 +1,14 @@
+-- lets see if the payment type effects tips
+select b."payment_type_name", AVG(a."tip_amount")
+from walker_de_project.raw."fact_table" a
+join walker_de_project.raw."payment_type_dim" b
+on a."payment_type_id"=b."payment_type_id"
+group by b."payment_type_name"
+
+-- find top 10 pickup locations based on the number of trips
+
+
+-- find total number of trips by passenger count
+
+
+-- find the average fare amount by hour of the day
