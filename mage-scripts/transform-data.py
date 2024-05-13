@@ -112,3 +112,10 @@ def transform(df, *args, **kwargs):
     "dropoff_location_dim":dropoff_location_dim.to_dict(orient="dict"),
     "payment_type_dim":payment_type_dim.to_dict(orient="dict"),
     "fact_table":fact_table.to_dict(orient="dict")}
+
+@test
+def test_output(output, *args) -> None:
+    """
+    Template code for testing the output of the block.
+    """
+    assert output is not None, 'The output is undefined'
