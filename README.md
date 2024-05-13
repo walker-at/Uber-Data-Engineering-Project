@@ -1,4 +1,4 @@
-# Uber/Taxi-Data-Engineering-Project
+# Uber/Taxi Data Engineering Project
 
 This project aimed to implement an ETL data pipeline for yellow and green NYC taxi trip records (for fun, we'll call it Uber). 
 
