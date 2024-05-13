@@ -23,7 +23,8 @@ Dashboard Visualization
 The final visualization can be viewed at: https://lookerstudio.google.com/reporting/fad782bf-59ce-44b8-99ba-dc4ada4241ad
 
 # Dimensional Data Diagram
-https://github.com/walker-at/Uber-Data-Engineering-Project/blob/e781dd0637c9c2ff16e85042d212e54bbcded05c/dimensional-data-model.jpeg
+![dimensional-data-model](https://github.com/walker-at/Uber-Data-Engineering-Project/assets/161479815/a3f8bba5-e65d-4b37-b09e-1fe3d876fb72)
+
 
 # About the Data
 "Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers."
