@@ -21,14 +21,8 @@ python get-pip.py
 
 pip install pandas
 
-
 # Install Mage
-sudo pip3 install mage-ai
+pip install mage-ai
 
-# Install Pandas
-sudo pip3 install pandas
-
-# Install Google Cloud Library
-sudo pip3 install google-cloud
-
-sudo pip3 install google-cloud-bigquery
+# Install Snowflake
+pip install snowflake-connector-python
