@@ -20,7 +20,7 @@ ETL
   * Virtual Machine Instance
   * Mage AI
 
-Analysis
+Data Warehouse Analysis
   * Snowflake
 
 Dashboard Visualization
