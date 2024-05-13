@@ -1,3 +1,4 @@
+CREATE OR REPLACE TABLE "table_analytics" AS (
 SELECT  
     f.VendorID,
     d.tpep_pickup_datetime,
@@ -24,4 +25,4 @@ JOIN walker_de_project.raw."trip_distance_dim" t ON t.trip_distance_id = f.trip_
 JOIN walker_de_project.raw."rate_code_dim" r ON r.rate_code_id = f.rate_code_id
 JOIN walker_de_project.raw."pickup_location_dim" pick ON pick.pickup_location_id = f.pickup_location_id
 JOIN walker_de_project.raw."dropoff_location_dim" dl ON dl.dropoff_location_id = f.dropoff_location_id
-JOIN walker_de_project.raw."payment_type_dim" pay ON pay.payment_type_id = f.payment_type_id;
+JOIN walker_de_project.raw."payment_type_dim" pay ON pay.payment_type_id = f.payment_type_id);
